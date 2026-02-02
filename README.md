@@ -1,6 +1,7 @@
 # Electrical System Design: G+10 Premium Residential Tower
 
-![Status](https://img.shields.io/badge/Status-Design_Completed-success) ![Domain](https://img.shields.io/badge/Domain-MEP_Engineering-orange) ![Tools](https://img.shields.io/badge/Tools-AutoCAD_%7C_Excel_%7C_blue)
+![Status](https://img.shields.io/badge/Status-Design_Completed-success) ![Domain](https://img.shields.io/badge/Domain-MEP_Engineering-orange) ![Tools](https://img.shields.io/badge/Tools-AutoCAD_%7C_Excel-blue
+)
 
 ## 🏢 Project Overview
 This repository contains the detailed **Electrical Design and Cost Estimation** for a G+10 high-rise residential building. The project simulates a real-world consultancy workflow, covering the entire design lifecycle from initial load estimation to final schematic drafting and tendering (BoQ).
