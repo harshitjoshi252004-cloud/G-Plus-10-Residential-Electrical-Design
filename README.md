@@ -53,7 +53,7 @@ All designs strictly comply with **NBC 2016 (National Building Code of India –
 
 | Single Line Diagram (SLD) | BoQ & Costing |
 |:---:|:---:|
-| <img src="https://drive.google.com/file/d/1HgilUPhE5kHWlSf_JpO5Z0rfv5My4pas/view?usp=drive_link" width="400"> | <img src="[assets/boq_preview.png](https://drive.google.com/file/d/1J8FAOh06AoiqqYN8OAy9QNAxpAKonklv/view?usp=drive_link)" width="400"> |
+| <img src="https://drive.google.com/file/d/1HgilUPhE5kHWlSf_JpO5Z0rfv5My4pas/view?usp=drive_link" width="400"> | <img src="Cost_Estimation_BoQ/Bill_of_Quantities.pdf" width="400"> |
 | Complete distribution from 11kV to LT panels | Detailed material take-off & costing |
 
 ---
