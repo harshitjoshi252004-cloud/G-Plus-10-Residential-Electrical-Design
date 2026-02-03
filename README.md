@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Tools](https://img.shields.io/badge/Tools-AutoCAD%20%7C%20Excel-blue)
 ![Standards](https://img.shields.io/badge/Compliance-NBC%202016-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 🚀 Project Overview
 This repository contains the end-to-end electrical system design for a **G+10 Premium Residential Tower** featuring 40 luxury flats. The design covers everything from initial load estimation and transformer sizing to Single Line Diagrams (SLD) and a comprehensive Bill of Quantities (BoQ).
