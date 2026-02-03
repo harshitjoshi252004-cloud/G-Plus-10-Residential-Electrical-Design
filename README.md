@@ -1,59 +1,95 @@
-# Electrical System Design: G+10 Premium Residential Tower
+# ⚡ Electrical System Design – G+10 Premium Residential Tower
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Tools](https://img.shields.io/badge/Tools-AutoCAD%20%7C%20Excel-blue)
 ![Standards](https://img.shields.io/badge/Compliance-NBC%202016-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 🚀 Project Overview
-This repository contains the end-to-end electrical system design for a **G+10 Premium Residential Tower** featuring 40 luxury flats. The design covers everything from initial load estimation and transformer sizing to Single Line Diagrams (SLD) and a comprehensive Bill of Quantities (BoQ).
+---
 
-The project adheres strictly to **NBC 2016 (National Building Code of India)** guidelines for safety, efficiency, and reliability.
+## 📌 Project Overview
+
+This repository contains the **complete electrical system design** for a **G+10 Premium Residential Tower** comprising **40 luxury apartments** (4 flats per floor).
+
+The project covers the **entire design lifecycle**:
+- Electrical load estimation
+- Maximum demand calculation
+- Transformer & DG sizing
+- Single Line Diagram (SLD)
+- Typical floor layouts
+- Bill of Quantities (BoQ) & cost estimation
+
+All designs strictly comply with **NBC 2016 (National Building Code of India – Part 8)** and standard electrical engineering practices.
 
 ---
 
-## 📸 Design Visuals
-*(Click images to expand)*
+## 🏢 Building Details
 
-| **Single Line Diagram (SLD)** | **Bill of Quantities (BoQ) & Costing** |
-|:---:|:---:|
-| <img src="assets/sld_preview.png" width="400" alt="AutoCAD Single Line Diagram"> | <img src="assets/boq_preview.png" width="400" alt="Bill of Quantities Excel Sheet"> |
-| *Complete distribution hierarchy from 11kV to 415V* | *Detailed material takeoff & project cost estimation (₹42.8L)* |
+| Parameter | Description |
+|---------|-------------|
+| Building Type | Residential (G+10 Floors) |
+| Total Flats | 40 Units |
+| Flats per Floor | 4 |
+| Supply Voltage | 11 kV / 415 V |
+| Distribution System | Rising Mains with Busbar Trunking |
 
 ---
 
-## ⚡ Technical Specifications
+## ⚡ Key Technical Specifications
 
-| Parameter | Value |
-| :--- | :--- |
-| **Building Type** | Residential (G+10 Floors) |
-| **Total Flats** | 40 Units (4 Flats per Floor) |
+| Item | Value |
+|----|------|
 | **Total Connected Load** | ~645 kW |
 | **Maximum Demand** | ~347 kW |
-| **Transformer Selected** | **630 kVA** (11/0.433 kV, Oil Cooled) |
-| **Backup Power (DG)** | **250 kVA** (For Essential Loads) |
-| **Distribution System** | Rising Mains – Busbar Trunking (800A) |
-| **Estimated Project Cost**| ~₹ 42.8 Lakhs |
+| **Transformer Capacity** | 630 kVA (11/0.433 kV, Oil Cooled) |
+| **DG Set Capacity** | 250 kVA (Essential Loads) |
+| **Busbar Trunking** | 800 A |
+| **Power Factor Considered** | 0.9 |
+| **Estimated Project Cost** | ₹ 42.8 Lakhs |
+
+---
+
+## 📐 Design Visuals
+
+| Single Line Diagram (SLD) | BoQ & Costing |
+|:---:|:---:|
+| <img src="assets/sld_preview.png" width="400"> | <img src="assets/boq_preview.png" width="400"> |
+| Complete distribution from 11kV to LT panels | Detailed material take-off & costing |
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-├── 📁 Calculations
-│   ├── Electrical_Load_Schedule.xlsx      # Connected Load & Max Demand Calcs (NBC Part 8)
-│   └── Transformer_DG_Sizing.xlsx         # Capacity selection calculations
+Electrical-System-Design-G+10-Residential/
 │
-├── 📁 Drawings (AutoCAD & PDF)
-│   ├── Single_Line_Diagram.dwg            # Main Distribution SLD (Source File)
-│   ├── Typical_Floor_Layout.dwg           # Lighting & Power Layouts
-│   └── SLD_Export.pdf                     # PDF Version for quick viewing
+├── README.md
+├── LICENSE
 │
-├── 📁 Costing
-│   └── Bill_of_Quantities.xlsx            # Detailed material costing and estimation
+├── docs/
+│   ├── Single_Line_Diagram.pdf
+│   ├── Typical_Floor_Detail.pdf
+│   └── Bill_of_Quantities.pdf
 │
-├── 📁 assets                              # Project Screenshots
+├── calculations/
+│   ├── Electrical_Load_Calculation.xlsx
+│   ├── Electrical_Load_Calculation.pdf
+│   └── Transformer_DG_Sizing.xlsx
+│
+├── drawings/
+│   ├── sld/
+│   │   ├── Single_Line_Diagram.dwg
+│   │   └── Single_Line_Diagram.pdf
+│   │
+│   └── layouts/
+│       ├── Typical_Floor_Layout.dwg
+│       └── Typical_Floor_Layout.pdf
+│
+├── costing/
+│   └── Bill_of_Quantities.xlsx
+│
+├── assets/
 │   ├── sld_preview.png
 │   └── boq_preview.png
 │
-└── README.md
+└── .gitignore
