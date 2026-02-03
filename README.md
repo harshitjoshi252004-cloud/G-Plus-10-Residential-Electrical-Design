@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![Tools](https://img.shields.io/badge/Tools-AutoCAD%20%7C%20Excel-blue)
 ![Standards](https://img.shields.io/badge/Compliance-NBC%202016-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -53,7 +52,7 @@ All designs strictly comply with **NBC 2016 (National Building Code of India –
 
 | Single Line Diagram (SLD) | BoQ & Costing |
 |:---:|:---:|
-| <img src="https://drive.google.com/file/d/1HgilUPhE5kHWlSf_JpO5Z0rfv5My4pas/view?usp=drive_link" width="400"> | <img src="Cost_Estimation_BoQ/Bill_of_Quantities.pdf" width="400"> |
+| <img src="Drafting_and_Schematics/Single_Line_Diagram.pdf" width="400"> | <img src="Cost_Estimation_BoQ/Bill_of_Quantities.pdf" width="400"> |
 | Complete distribution from 11kV to LT panels | Detailed material take-off & costing |
 
 ---
