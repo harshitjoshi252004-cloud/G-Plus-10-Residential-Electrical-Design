@@ -3,42 +3,111 @@
 ![Status](https://img.shields.io/badge/Status-Design_Completed-success) ![Domain](https://img.shields.io/badge/Domain-MEP_Engineering-orange) ![Tools](https://img.shields.io/badge/Tools-AutoCAD_%7C_Excel-blue
 )
 
-## 🏢 Project Overview
-This repository contains the detailed **Electrical Design and Cost Estimation** for a G+10 high-rise residential building. The project simulates a real-world consultancy workflow, covering the entire design lifecycle from initial load estimation to final schematic drafting and tendering (BoQ).
+## 🚀 Project Summary
 
-The design ensures compliance with **National Building Code (NBC)** and **IEC Standards** for safety, efficiency, and reliability.
+This repository contains the complete electrical system design for a **G+10 Residential Tower** consisting of **40 Flats**. The project demonstrates end-to-end electrical design, from **load estimation** to **system sizing**, **SLD development**, and **cost estimation**, following **NBC 2016** guidelines.
 
-## 📂 Repository Structure
 
-| Folder | Contents | Description |
-| :--- | :--- | :--- |
-| **`01_Design_Calculations`** | `.xlsx`, `.pdf` | Connected Load, Maximum Demand (MD), Diversity Factors, and Transformer Sizing calculations. |
-| **`02_Drafting_and_Schematics`** | `.dwg`, `.pdf` | Single Line Diagram (SLD) showing power flow from HT panel to LT distribution boards. Includes Typical Floor Plans. |
-| **`03_Cost_Estimation_BoQ`** | `.pdf` | Detailed Bill of Quantities covering cables, panels, switchgear, and labor costs. |
 
-## ⚡ Key Technical Deliverables
+---
 
-### 1. Load Estimation & Power Planning
-* **Load Analysis:** Calculated Total Connected Load (TCL) and applied standard diversity factors to derive Maximum Demand (MD).
-* **Transformer Sizing:** Selected distribution transformer rating based on MD + 20% safety margin for future expansion.
-* **DG Set Sizing:** Calculated required kVA for backup Diesel Generators considering critical and essential loads (Lifts, Fire Pumps, Common Lighting).
 
-### 2. Electrical Distribution System (SLD)
-* Designed the **Single Line Diagram (SLD)** depicting the hierarchy:
-  * **HT Side:** 11kV Supply -> Metering Cubicle -> VCB.
-  * **Transformation:** 11kV/415V Step-down Transformer.
-  * **LT Side:** Main PCC -> APFC Panel -> Floor Distribution Panels.
-* **Protection Coordination:** Specified switchgear ratings (ACB, MCCB, MCB) and cable sizing based on current capacity and permissible voltage drop.
 
-### 3. Cost Estimation (BoQ)
-* Prepared a comprehensive **Bill of Quantities** for tendering.
-* Scope includes Earth work, Cabling (Armored Al/Cu), Distribution Boards, Earthing Stations, and Lightning Protection Systems.
+## ⚡ Key Technical Specifications
 
-## 🛠️ Tools & Standards Used
-* **AutoCAD:** For drafting Single Line Diagrams (SLD) and Floor Layouts.
-* **Microsoft Excel:** For dynamic load schedules and BoQ calculations.
-* **Standards:** * **NBC 2016:** National Building Code of India (Electrical Services).
-  * **IEC 60364:** Low-voltage electrical installations.
+
+
+| Parameter | Value |
+
+| :--- | :--- |
+
+| **Building Type** | Residential (G+10 Floors) |
+
+| **Total Flats** | 40 Units (4 Flats per Floor) |
+
+| **Total Connected Load** | **~645 kW** |
+
+| **Maximum Demand** | **~347 kW** |
+
+| **Transformer Selected** | **630 kVA** (11/0.433 kV, Oil Cooled) |
+
+| **Backup Power (DG)** | **250 kVA** (Essential Loads) |
+
+| **Distribution System** | Rising Mains – Busbar Trunking (800A) |
+
+| **Estimated Electrical Project Cost** | **~₹ 42.8 Lakhs** |
+
+
+
+---
+
+
+
+## 🛠️ Design Methodology
+
+
+
+### 1️⃣ Load Calculation (Excel)
+
+- Calculated connected load for lighting, power, HVAC, lifts, pumps, EV charging, and fire services.
+
+- Applied diversity & demand factors as per **NBC 2016 (Part 8)**.
+
+- Finalized transformer and DG capacities based on maximum demand.
+
+
+
+### 2️⃣ System Design (AutoCAD)
+
+- Developed **Single Line Diagram (SLD)** from transformer to floor distribution.
+
+- Implemented **mechanical interlock** between Grid & DG supply.
+
+- Designed **typical floor layout** showing metering and flat-level distribution.
+
+
+
+### 3️⃣ Cost Estimation (BoQ)
+
+- Prepared a detailed Bill of Quantities.
+
+- Estimated costs for transformer, panels, cables, busbar trunking, and earthing using market rates.
+
+
+
+---
+
+
+
+## 📂 File Structure
+
+- `Electrical_Load_Schedule.xlsx`
+
+- `Single_Line_Diagram.dwg`
+
+- `Bill_of_Quantities.xlsx`
+
+- `Drawings/` (PDF & image exports)
+
+
+
+---
+
+
+
+## 👨‍💻 Tools Used
+
+- **AutoCAD 2024**
+
+- **Microsoft Excel**
+
+
+
+---
+
+
+
+*This project demonstrates practical electrical design principles applied to a real-world high-rise residential building.*
 
 ## 🤝 Contact
 * **Name:** [Harshit Joshi]
